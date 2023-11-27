@@ -7,7 +7,7 @@ public class MusicoSocio extends Musico {
         super(nombre, instrumento);
         this.numeroSocio = numeroSocio;
     }
-
+ 
     public String toString() {
         return super.toString() + ", número de socio: " + numeroSocio;
     }

@@ -228,7 +228,7 @@ public class Principal {
         }
     }
 
-    private static void cargarDatos() {
+    private static void cargarDatos() { 
         try (ObjectInputStream ois = new ObjectInputStream(new FileInputStream(NOMBRE_ARCHIVO))) {
             Object obj = ois.readObject();
             if (obj instanceof List<?>) {
